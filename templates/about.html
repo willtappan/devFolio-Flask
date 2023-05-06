@@ -1,49 +1,79 @@
-{% extends 'home.html'%}
 
 
 {% block about %}
 
-  <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Soy Ingeniero Mecatronico en la industria del software, actualmente soy desarrolladore de python backend .</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{{ url_for('static', filename='assets/img/testimonial-2.jpg') }}" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Web Developer.</h3>
-            <p class="fst-italic">
-.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>18 May 1993</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.williamaker.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Mexico City</span></li>
-                </ul>
+<section id="about" class="about-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box-shadow-full">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-sm-6 col-md-5">
+                  <div class="about-img">
+                    <img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                  <div class="about-info">
+                    <p><span class="title-s">Name: </span> <span>William Tappan</span></p>
+                    <p><span class="title-s">Profile: </span> <span>Python developer</span></p>
+                    <p><span class="title-s">Email: </span> <span>ing.tappan@gmail.com</span></p>
+                    <!-- <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p> -->
+                  </div>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Engineer</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>william@maker.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-                </ul>
+              <div class="skill-mf">
+                <p class="title-s">Skill</p>
+
+                <span>Python</span> <span class="pull-right">90%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>C++</span> <span class="pull-right">75%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>JAVASCRIPT</span> <span class="pull-right">55%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>HTML</span> <span class="pull-right">80%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span>CSS3</span> <span class="pull-right">50%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
               </div>
             </div>
-            <p>
-            </p>
+            <div class="col-md-6">
+              <div class="about-me pt-4 pt-md-0">
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    About me
+                  </h5>
+                </div>
+                <p class="lead">
+                  Hola Soy Ingeniero Mecatronio egresdo del la Universidad del Valle de Mexico
+                  Con 5 años de experiencia Professional en el area de desarrollo de software y hardware
+                </p>
+                <p class="lead">              
+                  Prgamacion en C/C++, Python, JavaScript, HTML, CSS, SQL,  Kotlin, Flutter, Dart,
+                  Desarllador IoT, Arduino, Desarrollo en Raspberry, Programador de microcontroladores Microchip
+                  ptocolos de comunicacion serial, i2c, spi, http, mqtt.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </div>
+  </div>
+</section><!-- End About Section -->
 
 
 
